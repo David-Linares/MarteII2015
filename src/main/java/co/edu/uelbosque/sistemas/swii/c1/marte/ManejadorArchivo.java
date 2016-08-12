@@ -31,5 +31,10 @@ public class ManejadorArchivo {
         return br.readLine();
     }
 
+    public String getSegundaLinea() throws IOException {
+        FileReader fr=new FileReader(reglas);
+        return "";
+    }
+
   
 }
